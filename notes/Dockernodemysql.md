@@ -1,16 +1,11 @@
-Absolutely — let’s do a **hands-on mentor-guided exercise**: we’ll build and run a Node.js app connected to a MySQL database, all inside Docker containers, using Docker Compose.
+# Containerize both **your Node.js app** and a **MySQL database** - jusy like they would do it in Production
 
-This exercise will show you how to containerize both **your Node.js app** and a **MySQL database**, wire them together, and make them talk — just like they would in production.
-
----
-
-## 👨‍🏫 **📝 Prerequisites**
+## **📝 Prerequisites**
 
 ✅ Node.js project folder (e.g., `my-node-app`)
 ✅ A simple Node.js app that connects to MySQL (or you’ll use the sample I’ll provide)
 ✅ Docker and Docker Compose installed
 
----
 
 ## 📁 **1) Sample Node.js App**
 
