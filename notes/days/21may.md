@@ -43,7 +43,7 @@ You’ve already experienced aptitude sessions in college, right? Now again you�
 That’s the beauty of learning here—it’s not just about preparing you for a test; it’s about building a way of thinking.
 
 And let me tell you a little about myself too, because I believe before you trust someone as your mentor, you should know their journey.
-My name is **Ravi Tamade**. I’m associated with IACSD since 1998–99. Before starting my organization *Transflower*, I worked with **CDAC Infotech** from 1997 to 2012 as a Microsoft Technology Practitioner. I’ve trained on C, C++, Data Structures, COM, .NET, Cloud, Azure, DevOps, and delivered programs to many corporate houses.
+My name is **Ravi Tamade**. I’m associated with IACSD since 1998–99. Before starting my organization *Transflower*, I worked with **seed Infotech** from 1997 to 2012 as a Microsoft Technology Practitioner. I’ve trained on C, C++, Data Structures, COM, .NET, Cloud, Azure, DevOps, and delivered programs to many corporate houses.
 
 But my true passion is **teaching**. I’ve always loved exploring new technologies—not because I know everything, but because every time something new comes, I chase it with curiosity. That’s the mindset I want you to build: **Don’t fear new technology—befriend it.**
 
@@ -233,9 +233,8 @@ Would you like me to **draft the storytelling flow for SDLC**, starting with the
 
 🌱 Mentor Storytelling Style 🌱
 
-Perfect! This is already a **live-classroom style explanation**. Let me help you **restructure and polish it** into a crisp **E-DAC extra page lecture note**, so that your students feel like they’re looking at your whiteboard + hearing your mentoring voice.
-
-# ✨ Importance of Software Engineering – E-DAC Mentor Page
+ 
+# ✨ Importance of Software Engineering – TAP Mentor Page
 
 👩‍🏫 *Imagine I’m standing in front of a whiteboard. Let’s build the foundation step by step.*
 
