@@ -119,27 +119,27 @@ and becomes **trade-offs, consequences, and restraint**.
 
 ### 🧠 The 20 Senior-Level Architecture Patterns & Decisions
 
-1️⃣ Saga Pattern
-2️⃣ Anti-Corruption Layer (ACL)
-3️⃣ Strangler Fig Pattern
-4️⃣ Sidecar Pattern
-5️⃣ Service Discovery
-6️⃣ Sharding
-7️⃣ Replication vs Sharding Trade-offs
-8️⃣ CAP Theorem in Practice
-9️⃣ Consistency Models
-🔟 Eventual Consistency Strategies
+- 1️⃣ Saga Pattern
+- 2️⃣ Anti-Corruption Layer (ACL)
+- 3️⃣ Strangler Fig Pattern
+- 4️⃣ Sidecar Pattern
+- 5️⃣ Service Discovery
+- 6️⃣ Sharding
+- 7️⃣ Replication vs Sharding Trade-offs
+- 8️⃣ CAP Theorem in Practice
+- 9️⃣ Consistency Models
+- 🔟 Eventual Consistency Strategies
 
-1️⃣1️⃣ Observability-Driven Architecture
-1️⃣2️⃣ Resilience Patterns (Retries, Circuit Breakers)
-1️⃣3️⃣ Bulkhead Pattern
-1️⃣4️⃣ Rate Limiting & Backpressure
-1️⃣5️⃣ Data Ownership per Service
-1️⃣6️⃣ Schema Evolution Strategies
-1️⃣7️⃣ Zero-Downtime Deployment Patterns
-1️⃣8️⃣ Legacy Coexistence Patterns
-1️⃣9️⃣ Organizational Architecture Alignment
-2️⃣0️⃣ **When NOT to use a pattern**
+- 1️⃣1️⃣ Observability-Driven Architecture
+- 1️⃣2️⃣ Resilience Patterns (Retries, Circuit Breakers)
+- 1️⃣3️⃣ Bulkhead Pattern
+- 1️⃣4️⃣ Rate Limiting & Backpressure
+- 1️⃣5️⃣ Data Ownership per Service
+- 1️⃣6️⃣ Schema Evolution Strategies
+- 1️⃣7️⃣ Zero-Downtime Deployment Patterns
+- 1️⃣8️⃣ Legacy Coexistence Patterns
+- 1️⃣9️⃣ Organizational Architecture Alignment
+- 2️⃣0️⃣ **When NOT to use a pattern**
 
 🧠 **Senior Insight**
 
@@ -163,4 +163,3 @@ Clarity       →  Boundaries              →  Sustainability
 >
 > You don’t earn complexity by learning patterns.
 > You earn it by being accountable for outcomes.
- 
