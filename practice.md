@@ -2,8 +2,6 @@
 
 ### 🎯 Sounds controversial? Let me explain.
 
----
-
 ### ❌ What We Often Do (Mistakenly)
 
 When hiring or mentoring **junior developers**, we tend to:
@@ -14,8 +12,6 @@ When hiring or mentoring **junior developers**, we tend to:
 But here's the truth:
 
 > 🚫 **Junior developers don’t need complex theory upfront.**
-
----
 
 ### ✅ What They Actually Need
 
@@ -28,8 +24,6 @@ Junior devs benefit far more from **practical, hands-on guidance**:
 
 > These are the *building blocks* of writing clean, maintainable code.
 
----
-
 ### 📚 What About SOLID?
 
 Of course, **SOLID principles** are important — but they make more sense **after** real coding experience.
@@ -38,8 +32,6 @@ Of course, **SOLID principles** are important — but they make more sense **aft
 
 Instead of forcing definitions, let them **feel** the pain points that SOLID solves. Over time, theory will resonate naturally.
 
----
-
 ### 📌 The Right Progression
 
 | Developer Level | Focus                              |
@@ -47,8 +39,6 @@ Instead of forcing definitions, let them **feel** the pain points that SOLID sol
 | 🐣 Junior       | Practice > Clean Code Habits       |
 | 🧭 Mid-Level    | Practice + Theory (SOLID/DRY/KISS) |
 | 🧠 Senior       | Architecture + Teaching Others     |
-
----
 
 ### 💬 Final Thought
 

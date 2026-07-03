@@ -1,5 +1,4 @@
 
-
 ## Waterfall VS Agile Model
 Agile and Waterfall are two well-known project management methodologies. Both of them are popular in software development but each is best suited for different types of projects. 
 
