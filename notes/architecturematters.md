@@ -180,8 +180,5 @@ They ask:
 
 That is where architecture matters. Remember this:
 **Frameworks help you build applications.**
-**Architecture helps your applications survive success.**
-
-And in the cloud era...
-**Scaling is not about bigger servers.**
+**Architecture helps your applications survive success.** And in the cloud era...**Scaling is not about bigger servers.** 
 **Scaling is about better engineering decisions.**
