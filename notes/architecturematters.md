@@ -154,12 +154,12 @@ You cannot improve what you cannot measure. Monitoring is a core part of enginee
 ## What Makes a Cloud Application Scalable?
 
 A production-ready ASP.NET Core application should be:
-✅ Stateless
-✅ Cache-enabled
-✅ Load-balanced
-✅ Fault tolerant
-✅ Auto-scalable
-✅ Observable through monitoring
+- ✅ Stateless
+- ✅ Cache-enabled
+- ✅ Load-balanced
+- ✅ Fault tolerant
+- ✅ Auto-scalable
+- ✅ Observable through monitoring
 
 These characteristics allow applications to handle growth without major redesign.
 
