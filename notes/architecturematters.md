@@ -1,6 +1,6 @@
 # **"Can ASP.NET Core Handle Millions of Users?"**
 
-## **A Mentor's Perspective on Building Scalable Applications**
+## **Building Scalable Applications**
 
 *"One day, a student asked me..."*
 
