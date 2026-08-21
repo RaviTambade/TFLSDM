@@ -150,10 +150,10 @@ Congratulations. You just discovered a new test case. **Production is the ultima
 
 A junior developer sometimes thinks: "If I ask for help, people will think I don't know." A senior engineer understands: "If I stay stuck for two days without communicating, the team pays the price." Asking for help is not weakness. The real skill is knowing:
 
-* what you tried
-* what you expected
-* what actually happened
-* what you don't understand
+* What you tried
+* What you expected
+* What actually happened
+* What you don't understand
 
 Then asking a precise question. **Don't protect your ego at the cost of project time.**
 
