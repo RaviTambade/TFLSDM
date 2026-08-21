@@ -1,6 +1,6 @@
 # Why Software Engineering Matters
 
-“AI can generate code. Software Engineering builds systems that people trust.”** 👋 Good Morning, Everyone! Today, I don't want this to be a traditional lecture. I want this to be an **interactive mentoring session**. So, throughout this session, I am going to ask you questions. Don't worry about giving perfect answers.
+“AI can generate code. Software Engineering builds systems that people trust.” 👋 Good Morning, Everyone! Today, I don't want this to be a traditional lecture. I want this to be an **interactive mentoring session**. So, throughout this session, I am going to ask you questions. Don't worry about giving perfect answers.
 
 **Think. Discuss. Challenge. Answer. Learn.**
 
@@ -13,8 +13,16 @@ Maybe...
 * A luxury cruise ship
 * A gigantic cargo vessel carrying thousands of containers
 
-Now let me ask you a question. What makes a ship successful? Is it the beautiful paint?  No! Is it the captain?  Not completely! 
-Is it the navigation screen?  No! Then what keeps the ship floating safely across thousands of kilometers? **Engineering.** Hidden beneath the surface are:
+Now let me ask you a question. 
+- What makes a ship successful? 
+- Is it the beautiful paint?  No! 
+- Is it the captain?  Not completely! 
+- Is it the navigation screen?  No! 
+Then what keeps the ship floating safely across thousands of kilometers? 
+
+### Engineering.
+
+Hidden beneath the surface are:
 
 * Hull design
 * Structural compartments
