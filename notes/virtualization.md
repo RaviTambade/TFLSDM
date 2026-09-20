@@ -622,91 +622,10 @@ Ravi Sir:
 Suppose a physical host has:
 
 * 8 physical CPU cores
-
 * 32 GB RAM
-
 * 500 GB storage
 
-We configure:
 
-|
-VM
-
-|
-
-vCPU allocation
-
-|
-
-RAM
-
-|
-| --- | --- | --- |
-|
-
-Ubuntu Development
-
-|
-
-2
-
-|
-
-4 GB
-
-|
-|
-
-Windows Testing
-
-|
-
-2
-
-|
-
-8 GB
-
-|
-|
-
-Linux Database
-
-|
-
-2
-
-|
-
-8 GB
-
-|
-|
-
-Linux Web Server
-
-|
-
-2
-
-|
-
-4 GB
-
-|
-|
-
-Host and overhead
-
-|
-
-Shared resources
-
-|
-
-Remaining memory
-
-|
 
 The assigned virtual CPUs are not necessarily dedicated physical cores. Actual scheduling and resource usage depend on the hypervisor and configuration.
 
@@ -720,60 +639,7 @@ Once students understand virtualization, introduce containers as the next step i
 
 ![Part 21: Virtualization & Containers | Computer Architecture & OS Mastery - Wasil Zafar](https://images.openai.com/static-rsc-4/7ME8V5msWkHVqk4QBDeu5FfOHq_zn3Ms4ZFik8q7WDjBs5RM92XugCjuErU9pCkJQm-mOMVSwpeKUW5zwrnR1CE_Wdu6RwDKx_K3mxymBjx9pXHxtSo2Mz2ylMeHYqll_fuo51GGFnpt62aK-S5Bj6AEA0WxjVpavsWz8NI7Vbg?purpose=inline)
 
-|
-Virtual Machine
 
-|
-
-Container
-
-|
-| --- | --- |
-|
-
-Virtualizes hardware
-
-|
-
-Isolates applications using OS-level mechanisms
-
-|
-|
-
-Runs a guest operating system
-
-|
-
-Shares the host kernel
-
-|
-|
-
-Usually includes a complete guest OS
-
-|
-
-Packages application and dependencies
-
-|
-|
-
-Typically uses more resources
-
-|
-
-Often has lower overhead
-
-|
-|
-
-Managed by a hypervisor
-
-|
-
-Managed by a container runtime
-
-|
 
 Ravi Sir:
 
