@@ -794,13 +794,9 @@ Objective: Understand the relationship between physical hardware, hypervisor, gu
 Prerequisites
 
 * Windows or Linux laptop
-
 * VirtualBox
-
 * Ubuntu ISO
-
 * At least 8 GB RAM recommended for this classroom configuration
-
 * Sufficient free disk space
 
 Tasks
@@ -866,70 +862,14 @@ Mentor's explanation:
 Bash
 
 ```
-
-|
-Command
-
-|
-
-What You Learn
-
-|
+|Command|What You Learn|
 | --- | --- |
-|
-
-`uname -a`
-
-|
-
-Kernel and system information
-
-|
-|
-
-`lscpu`
-
-|
-
-CPU architecture and processors visible to the VM
-
-|
-|
-
-`free -h`
-
-|
-
-Memory usage
-
-|
-|
-
-`df -h`
-
-|
-
-Filesystem capacity
-
-|
-|
-
-`ip addr`
-
-|
-
-Network interfaces and IP addresses
-
-|
-|
-
-`ps aux`
-
-|
-
-Running processes
-
-|
+|`uname -a`|Kernel and system information|
+|`lscpu` | CPU architecture and processors visible to the VM|
+|`free -h`|Memory usage|
+|`df -h`|Filesystem capacity|
+|`ip addr`|Network interfaces and IP addresses|
+|`ps aux`|Running processes|
 
 ```
 
@@ -938,24 +878,15 @@ Running processes
 
 Ravi Sir:
 
-"Now imagine Transflower wants to conduct a Linux and backend development lab for 20 students.
-
-Each student needs one Ubuntu VM configured with 2 virtual CPUs and 4 GB RAM.
-
-What resources should we plan for?"
+"Now imagine Transflower wants to conduct a Linux and backend development lab for 20 students. Each student needs one Ubuntu VM configured with 2 virtual CPUs and 4 GB RAM. What resources should we plan for?"
 
 ## Virtual Lab Resource Calculator
 
 Number of students: 20
-
 RAM per VM: 4 GB
-
 Virtual CPUs per VM: 2
-
 Total allocated VM RAM
-
 # 80 GB
-
 Total configured vCPUs
 
 # 40
@@ -965,15 +896,10 @@ These figures represent configured VM resources, not guaranteed physical capacit
 Discussion questions:
 
 1. Should all student VMs run on one physical machine?
-
 2. What happens if physical RAM is insufficient?
-
 3. How can we distribute VMs across multiple hosts?
-
 4. What happens if a physical host fails?
-
 5. How can we back up VM disks?
-
 6. What is the role of monitoring in a production environment?
 
 ## 11. Classroom Assessment: Check Your Understanding
