@@ -860,8 +860,12 @@ ps aux
 Mentor's explanation:
 
 "These commands are not just Linux commands to memorize. Each one helps you inspect a different aspect of the computing environment."
-```
+
 ### Linux Commands – Understanding Your Virtual Machine
+
+Bash
+
+```
 
 |
 Command
