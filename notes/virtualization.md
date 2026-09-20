@@ -2,37 +2,71 @@
 
 ## From Physical Data Centers to Virtual Machines, Hypervisors, Linux and System Administration
 
-Mentor: Ravi Tambade, Chief Mentor – Transflower Learning Audience: TAP Students | Final-Year Engineering Students | Aspiring Software Developers Session Type: Conceptual Learning + Classroom Role Play + Live Demonstration Core Theme: Understand the infrastructure on which your applications run.
+Mentor: Ravi Tambade, Chief Mentor – Transflower Learning Audience: TAP Students | Final-Year Engineering Students | Aspiring Software Developers Session Type: Conceptual Learning + Classroom Role Play + Live Demonstration + Hands-on Lab Core Theme: Understand the infrastructure on which your applications run.
 
-## 1. Session Opening: Before Writing Code, Understand the Machine
+## Session Learning Outcomes
+
+By the end of this session, students should be able to:
+
+1. Explain the purpose of a physical data center.
+
+2. Describe virtualization using a real-world analogy.
+
+3. Explain the role of a hypervisor.
+
+4. Differentiate Type 1 and Type 2 hypervisors.
+
+5. Create a basic Ubuntu virtual machine using VirtualBox.
+
+6. Inspect CPU, memory, storage, network and processes in Linux.
+
+7. Distinguish the responsibilities of developers, system administrators and DevOps/platform engineers.
+
+8. Explain the relationship between virtual machines and containers.
+
+9. Perform basic resource calculations for a virtual lab.
+
+# Part 1: Before Writing Code, Understand the Machine
+
+## 1. Session Opening — Where Does Your Application Run?
 
 Ravi Sir:
 
-"Students, you are learning C#, Java, Python, JavaScript, React, Angular and backend development.
+“Students, you are learning C#, Java, Python, JavaScript, React, Angular and backend development.
 
-You are building applications. But let me ask you one question.
+You are writing code. You are building applications.
 
-Where does your application actually run?"
+But let me ask you one simple question.”
 
-Student: "Sir, on a computer."
+Ravi Sir: “Where does your application actually run?”
 
-Ravi Sir: "Correct! But what kind of computer? Your laptop? A server? A virtual machine? A cloud server? A container?"
+Student: “Sir, on a computer.”
 
-"Before we discuss virtualization, let us understand the physical infrastructure that supports software applications."
+Ravi Sir: “Correct! But what kind of computer?”
 
-![DCIM x AIOps: The Next Big Trend Reshaping AI Software - GIGABYTE Global](https://images.openai.com/static-rsc-4/sW41XWsilnCPvfjLwlZyE9Q5NZS-pLVj2O0uY4iodntAIY1kK9Ub0aT99qB3c80KNGRUMIFE8soVKGTlKX8oXcm4crw9L9yRMOnIvRjvA2y_D7DpbmuswVlk_7IaiZPqCSkg1gR2YWdXd9C84UNgKm8atDxvnwDs85uwLQUtQA0?purpose=inline)
+Students:
 
-![ICT Interconnection and Systems Integration Inc.](https://images.openai.com/static-rsc-4/ZnRoI-h3FkwY14Cov2YOwEg1mNeLF-u0SwOX0aczJr4mWqOPDk9RR29I73JW1GKux07QPfllilaOzIaK-T1OaxNf1F2I3iuHTb4Jpa511qwxdcNE8EBWxgtprj79vECJntzRYmg__Clj0LY0bPVpKU15YOJrXRDDcGwVJsswZaM?purpose=inline)
+* My laptop, Sir.
 
-![Google invests \$40B in Texas data centers, boosting mechanical construction | Liam Quail posted on the topic | LinkedIn](https://images.openai.com/static-rsc-4/APB_JnE4Tf0Y3Axn23I0H02ePJim_dtd0irwYpj_QcwZKt93LxIA0e1fTU_v0H2IFqsPUQg2dP1PAtllAiqixf2pJDxesXrvRYtW6QoHOQETe6yzfmHe-KD-3kOmC71FkDnVNE3-An3FK_3eG59oAuMxcBCgD03ZZmbeY-XpWqg?purpose=inline)
+* A server.
 
-6
+* A cloud machine.
 
-### The physical data center
+* A virtual machine.
 
-A data center is a facility containing computing infrastructure used to host applications, databases, websites, enterprise systems and cloud services.
+* A container.
 
-Imagine a company running:
+Ravi Sir: “Excellent. Today, we are going to understand the machine behind the application.”
+
+“Before we discuss virtualization, let us begin with the physical infrastructure that supports software.”
+
+# Part 2: Understanding the Physical Data Center
+
+## 2. What Is a Data Center?
+
+A data center is a facility that houses computing infrastructure used to run applications, databases, websites, enterprise systems and cloud services.
+
+Imagine an organization operating:
 
 * Banking applications
 
@@ -44,11 +78,20 @@ Imagine a company running:
 
 * Learning management platforms
 
-* Artificial Intelligence services
+* Artificial intelligence services
 
-These applications require computing resources that must be available, secure and maintainable.
+These applications need computing resources that are available, secure, connected and maintainable.
 
 A data center provides the physical environment for those resources.
+
+![发展历程 - 弘信电子集团](https://images.openai.com/static-rsc-4/4GOLDS3MGOv0xIdsOnTOIEh1StLbxcnxDCnnH8xSNo9mIkVmU_zUieyMKvAgBrPNKNbSmhNp_LHd--SbWYr-05_b0XrxgXKspqTlYbOKvJdBhj2Ecu-cDOonDhaevWc1q_KyQnvgKOulGh27nWtFs2Fqros6OlT7Xm3c_UOCJIo?purpose=inline)
+
+![Thermal Coating for UAE Data Centers: Cutting Cooling Costs in Extreme Heat | Seal Coatings News](https://images.openai.com/static-rsc-4/xuRcqheqH-Tj5ukJqAe0SNRMPIbl_Eb7CAiUKj9CkJQlMB8P7FXbAkGbjOMNejOUySSgeAIZLhsvTK1O4ljlax2ntoGczaLZQ91LZmlVdjGiABpJKU0MNYOvAqEa40pSzlj_Dhjc0f6jl_njwWveMOPJwh47SW-4vuO4zUIaNOc?purpose=inline)
+
+![CyberPower
+– vnetwork](https://images.openai.com/static-rsc-4/TP1DTz_j3C-xCRrYLvDUUkwOZVb81AFc6xRVU1ZcRlhjlhwxw5MKWWOt9MYqPeItHHitX5yiN6ps4wQSDqNSQBAWicPGhBzhQ8GDne1HsauDafsfWZI-112gX2uWK2ZFq3QM1Cmi96nVot9h3sc7C7iZaNrJ9mPvHxi7MGkYOKk?purpose=inline)
+
+7
 
 ### What do we find inside a data center?
 
@@ -94,7 +137,7 @@ Network switches
 
 |
 
-Connect servers within a network
+Connect devices within a network
 
 |
 |
@@ -103,7 +146,7 @@ Routers
 
 |
 
-Connect networks
+Connect different networks
 
 |
 |
@@ -112,7 +155,7 @@ Fiber-optic cabling
 
 |
 
-High-speed network communication
+Supports high-speed network communication
 
 |
 |
@@ -121,7 +164,7 @@ Cooling systems
 
 |
 
-Maintain operating temperature
+Maintain suitable operating temperatures
 
 |
 |
@@ -148,22 +191,35 @@ Physical security
 
 |
 
-Protects infrastructure
+Protects infrastructure and equipment
 
 |
 
 Ravi Sir:
 
-"Students, a data center is not just a room containing computers. It is an engineered environment involving electricity, cooling, networking, storage, security and operations."
+“Students, a data center is not just a room containing computers. It is an engineered environment involving electricity, cooling, networking, storage, security and operations.”
 
+### Classroom question
 
-## 2. The Classroom Analogy: Physical Infrastructure as an Apartment Building
+Ravi Sir: “If a server has a powerful CPU but no electricity, can it run our application?”
+
+Student: “No, Sir.”
+
+Ravi Sir: “If it has electricity but no network connection, can remote users access the application?”
+
+Student: “Not normally, Sir.”
+
+Ravi Sir: “Exactly. Infrastructure is a system of connected components. A server is only one part of it.”
+
+# Part 3: The Apartment Building Analogy
+
+## 3. Understanding Virtualization Through a Familiar Example
 
 Ravi Sir:
 
-"Let us imagine a large apartment building."
+“Let us imagine a large apartment building.”
 
-![13期重劃區▪台中室｜捷運宅專賣](https://images.openai.com/static-rsc-4/pqQ4ts9BiH871BkMHBhZ2-luAsT_pgGt6Ytn6KWSXM952Y0hDheEvrjX2Wj8vDjDGKO6wJS8ffm9vO27KckdconM4A0jZ2pBczJW5qxU3KSFX5t2r9Ie8Gna3Ea7mSvQA8YqOtSRHdpaQM_PsD5TBZIj6XlQkpEhTspsh5x7vi0?purpose=inline)
+![Top 10 Most Expensive Cities for New Apartments in Germany](https://images.openai.com/static-rsc-4/yrpoSyqV6qlKd4dHEG3nnlvOMa3bTuAQ8CIQtp9tak-9bdgc_nsryBA_1v_M2R0cG8uE3dJGm1zTYAn4drkAFUSno9AHgBgQSbweCxtYWQzFLXznICHA2fQkht4rQ8QOLoO-59VrN_omSMNlc3jwVP-sOQP-b43M28JiOhYUx-g?purpose=inline)
 
 The building has:
 
@@ -179,27 +235,27 @@ The building has:
 
 * Different families living independently
 
-Now imagine that the building is our physical server.
+Now imagine that the building represents our physical server.
 
 Each apartment represents an isolated virtual environment.
 
-The building's infrastructure is shared, but each apartment has its own occupants and private space.
+The building's physical infrastructure is shared, but each apartment has its own private space and occupants.
 
-Similarly, virtualization allows multiple virtual machines to operate on one physical computer, with allocated computing resources and logical isolation.
+Similarly, virtualization allows multiple virtual machines to operate on one physical computer, using allocated computing resources and logical isolation.
 
-Student: "Sir, does that mean one physical server can behave like multiple computers?"
+Student: “Sir, does that mean one physical server can behave like multiple computers?”
 
-Ravi Sir: "Exactly! That is the fundamental idea behind virtualization."
+Ravi Sir: “Exactly! That is the fundamental idea behind server virtualization.”
 
-## 3. What Is Virtualization?
+# Part 4: What Is Virtualization?
 
-Definition:
+## 4. Definition
 
-Virtualization is the process of creating software-based representations of computing resources, such as computers, operating systems, storage and networks.
+Virtualization is the creation of software-based representations of computing resources, such as computers, operating systems, storage and networks.
 
-In server virtualization, a single physical machine can host multiple virtual machines.
+In server virtualization, one physical machine can host multiple virtual machines.
 
-Each virtual machine can have its own:
+Each virtual machine can be configured with its own:
 
 * Virtual CPU allocation
 
@@ -209,49 +265,31 @@ Each virtual machine can have its own:
 
 * Virtual network adapter
 
-* Operating system
+* Guest operating system
 
 * Installed applications
 
-![Understanding Virtualization - PCSP](https://images.openai.com/static-rsc-4/iOJa4PlQ0QYF5_VfLiCZfi6abA4qnPzZSEI_hyiz2MR89WatF2LX_1tUNU1U4SC2OY5zi4NOaGyR6viKechxbtTbEOwezSn2NN1NyHsCSjijoquCewFv2b4JeyMHirxcFGtgbvevhCHWmNAGhe4vIs5U7xoPUv5feg4BBfS1SI8?purpose=inline)
+Traditional infrastructure
 
-### Traditional infrastructure vs virtualized infrastructure
+Physical Server 1 Windows Server + Application A
 
-Traditional approach
+Physical Server 2 Linux + Application B
 
-Physical Server 1
+Physical Server 3 Database Server
 
-Windows Server + Application A
-
-Physical Server 2
-
-Linux + Application B
-
-Physical Server 3
-
-Database Server
-
-Each workload has a separate physical machine.
-
-Virtualized approach
+Virtualized infrastructure
 
 One Physical Server
 
 Hypervisor
 
-VM 1
+VM 1 Windows
 
-Windows
+VM 2 Ubuntu
 
-VM 2
+VM 3 Linux DB
 
-Ubuntu
-
-VM 3
-
-Linux DB
-
-Multiple virtual environments share the host's physical resources.
+CPU • RAM • Storage • Network
 
 ### Why do organizations use virtualization?
 
@@ -259,39 +297,35 @@ Multiple virtual environments share the host's physical resources.
 
 2. Isolation: Separate operating systems and workloads.
 
-3. Flexibility: Create or remove virtual machines as requirements change.
+3. Flexibility: Create, configure or remove virtual machines as requirements change.
 
 4. Testing: Experiment with operating systems without replacing the host OS.
 
-5. Consolidation: Run several workloads on fewer physical servers.
+5. Consolidation: Run multiple workloads on fewer physical servers.
 
 6. Administration: Manage virtual machines through centralized tools.
 
-Important: Virtualization does not magically create unlimited hardware. Every VM consumes real physical resources.
+Important: Virtualization does not create unlimited hardware. Every VM consumes real physical resources, and too many demanding VMs can compete for CPU, RAM, storage and network capacity.
 
-## 4. Hypervisor: The Heart of Virtualization
+# Part 5: Hypervisor — The Manager of Virtual Machines
+
+## 5. What Is a Hypervisor?
 
 Ravi Sir:
 
-"Now, who manages these virtual machines? Who allocates CPU, memory and virtual storage?"
+“Now, who manages these virtual machines? Who provides their virtual hardware and controls their access to the physical resources?”
 
-Students: "Hypervisor, sir!"
+Students: “The hypervisor, Sir!”
 
 Correct.
 
 A hypervisor, also called a Virtual Machine Monitor (VMM), is the software layer that creates and manages virtual machines and controls their access to underlying hardware resources.
 
-### Two types of hypervisors
+## 5.1 Type 1 — Bare-Metal Hypervisor
 
-## Type 1 – Bare-metal hypervisor
+A Type 1 hypervisor runs directly on physical hardware.
 
-Runs directly on physical hardware
-
-![\[Tản mạn\] Ảo hóa - Ai cũng biết nhưng cụ thể nó là gì ?](https://images.openai.com/static-rsc-4/X09xgGsJbLEHPC84siqHdlGfXhRZY1Uv2_VGDicvxJQBn6geMwmnJtzLLgJ-SWZg66Bu1GfbtkWmB40lgxrfYffXfbGrXGvWpdtvzltJxpA2KoK2yyb7SRImKLNM89lhsFRovrebFC-lqCppjX0CPQW3czaneWeQHLCLcvk3WQI?purpose=inline)
-
-Physical Hardware
-
-Hypervisor
+Virtual Machines
 
 VM 1
 
@@ -299,67 +333,69 @@ VM 2
 
 VM 3
 
-Examples: Microsoft Hyper-V in its bare-metal deployment, VMware ESXi, and Xen.
+Type 1 Hypervisor
 
-## Type 2 – Hosted hypervisor
+Physical Hardware CPU • RAM • Storage • Network
 
-Runs as an application on a host OS
+Examples include:
 
-![Virtualization](https://images.openai.com/static-rsc-4/rWWYAeiMHySJ6XW38zGAzi9iTzTMOqzCQl9AOOZdcDEye8_uG3g2HRv0Ci5QiwvZW5L5n5WqfFLUHZIMG5oPtizmyuDeK4xlVC8P6BA05LIBphDgVn0CxrduhAjfqzYARdBBUxr5kt6w5dfaQQN0FVg0mhw6x4foURgpljUVU5U?purpose=inline)
+* VMware ESXi
 
-Physical Hardware
+* Microsoft Hyper-V in its bare-metal deployment
 
-Host Operating System – Windows
+* Xen
 
-VirtualBox
+## 5.2 Type 2 — Hosted Hypervisor
+
+A Type 2 hypervisor runs as an application on a host operating system.
+
+Guest Virtual Machines
 
 Ubuntu VM
 
 Linux VM
 
-Examples: Oracle VirtualBox and VMware Workstation.
+VirtualBox — Hosted Hypervisor
 
-### Classroom question
+Host Operating System — Windows
 
-Ravi Sir: "Students, when you install Oracle VirtualBox on your Windows laptop, is VirtualBox directly replacing Windows?"
+Physical Hardware
 
-Student: "No, sir. It runs on top of Windows."
+Examples include:
 
-Ravi Sir: "Exactly. That is a Type 2 hosted hypervisor."
+* Oracle VirtualBox
 
-## 5. Live Demonstration: Creating an Ubuntu Virtual Machine
+* VMware Workstation
 
-The session moves from theory to hands-on infrastructure practice.
+### Classroom dialogue
 
-Ravi Sir:
+Ravi Sir: “When you install Oracle VirtualBox on your Windows laptop, does VirtualBox replace Windows?”
 
-"Today, we are not just going to talk about Linux. We are going to create a Linux machine inside our existing computer."
+Student: “No, Sir. It runs on top of Windows.”
 
-### Demonstration architecture
+Ravi Sir: “Exactly. Windows is the host operating system. Ubuntu inside VirtualBox is the guest operating system.”
 
-Your Windows Laptop
+# Part 6: Live Demonstration — Creating an Ubuntu Virtual Machine
 
-Physical host machine
+## 6. Our Demonstration Architecture
 
-Oracle VirtualBox
+Windows Laptop Physical host machine
 
-Hosted hypervisor
+Oracle VirtualBox Hosted hypervisor
 
-Ubuntu Virtual Machine
+Ubuntu Virtual Machine Guest operating system
 
-Guest operating system
-
-Linux + Terminal + Development Tools
-
-### Step 1: Understand the installation files
+Linux Terminal • Development Tools • Runtime
 
 Ravi Sir:
 
-"Before installing Ubuntu, let us understand the difference between an operating system and an ISO file."
+“Today, we are not just going to talk about Linux. We are going to create a Linux machine inside our existing computer.”
+
+## 6.1 Understand the ISO File
 
 An ISO file is a disk-image file that can contain installation media for an operating system.
 
-For example:
+Examples:
 
 * Ubuntu Desktop ISO
 
@@ -369,7 +405,7 @@ For example:
 
 The ISO is not itself a running virtual machine. It is installation media that the VM can boot from.
 
-### Step 2: Configure the virtual machine
+## 6.2 Example VM Configuration
 
 For a classroom demonstration, a possible starting configuration is:
 
@@ -437,126 +473,114 @@ Ubuntu ISO
 
 |
 
-These are demonstration settings, not universal requirements. Actual resource needs depend on the Ubuntu release, workload and host capacity.
+These are demonstration settings, not universal requirements. Actual needs depend on the Ubuntu release, workload and host capacity.
+
+Ravi Sir: “Suppose your laptop has 8 GB RAM and you allocate 7 GB to a virtual machine. What might happen?”
+
+Student: “Windows may become slow because it also needs memory.”
+
+Ravi Sir: “Correct. Capacity planning is an important infrastructure skill.”
+
+## 6.3 Installation Steps
+
+1. Install and launch VirtualBox.
+
+2. Create a new virtual machine.
+
+3. Select the Ubuntu ISO as installation media.
+
+4. Configure virtual CPU, RAM and disk.
+
+5. Start the VM.
+
+6. Follow the Ubuntu installer.
+
+7. Configure the username and password.
+
+8. Complete installation and restart.
+
+9. Detach the ISO when appropriate so the VM boots from its virtual disk.
+
+![Macchine virtuali (VM): come crearne una - IONOS](https://images.openai.com/static-rsc-4/YctwHzlfxBrOsg_aiM3gUA5geYY5MLgqYE4U2Gl5umi87byi_PAza7RzzQ9YeJJpWnAjiOzq3Aj3OwFrr2N6muI85gXzF-t6hfgyg0xHEng8E_uZYxzg4z-4o2NHRTDkHZv-ReKwC2qDtQgfyCUyVf8TSwcFJwstLuVRaTSpkB0?purpose=inline)
+
+![Install Ubuntu on VirtualBox and Configure it Properly | WxGuy](https://images.openai.com/static-rsc-4/x7euDWIeZAatXgUCiWxZ8C8FTAVRUf27g2kUABv1r9MH0YczSlB7Akytc030ys7_L9mz5LVEX9iUsHPUfdxj--XZkfqomC1nskaiSpLHM_79QrEu5uq4UIAq8xbV0UyUXeYa_nIC47iPMmCrIiA6p6lanJLAEIt-rHZN1wu3u-g?purpose=inline)
+
+![VirtualBox – How To Install Ubuntu as Virtual Machine on Windows 10 Host - TehnoBlog.org](https://images.openai.com/static-rsc-4/o4r_ny6wjULo2BxpTJ2o0x7fwcszVInr31uyNWK-Fu7DDlSpDtKryWCqIfy_79JlFD0hgnO2e8MvdfrObgwxuf1w8nBJn1x8nPvi0zOiKVBGYLzKkAz4HShsa1CZoORrJDf0jwsGqQmm7TANb3WpEITjz_ctVXoXvpwhfge4GW4?purpose=inline)
+
+5
+
+Safety reminder: Carefully verify that the installer is using the VM’s virtual disk—not the host computer’s physical Windows disk.
+
+# Part 7: Developer, System Administrator and DevOps Engineer
+
+## 7. Who Is Responsible for What?
 
 Ravi Sir:
 
-"Students, if your laptop has 8 GB RAM and you allocate 7 GB to a VM, what happens?"
+“Imagine you have developed an insurance application using ASP.NET Core, React and MySQL.
 
-Student: "Sir, Windows may become slow because it also needs memory."
+It works on your laptop. Now the company wants to deploy it on a Linux server.
 
-"Correct! Capacity planning is an important responsibility of infrastructure engineers."
-
-### Step 3: Install Ubuntu
-
-![Install Ubuntu 22.04 LTS Desktop \[Step By Step\] - OSTechNix](https://images.openai.com/static-rsc-4/AL8uUAgKfUxGxfnPTRhPDuaI-M3GkOsJJ9Mcs4MQjbFJT5vAck65imLgImuVvxzywzwARuSjTdEnknjC1sidtMP7o3BYtV9gOh_X_QYwbiKuT9XHuHe2wfi4rY8r6QPU7VRGH1bhW7lxsP1dgPoUBuPU4KEgfR43cFOwTkL4fG0?purpose=inline)
-
-![How to Dual Boot Windows 11 and Linux on Separate Hard Drives](https://images.openai.com/static-rsc-4/N3gTUPdoPLwU80hi-9yORSUuHB1dd4ZSfkIt_5bKiITkECERj8GDaFKqhPptnIrFTQv_OpEdjTLdcSU_iwy7nak1M1o5JSNxCl76I21ay65wMiRAWz_Nmmd7rBRL5TD4dx_C075C29Zxy9ikIdo-Zu8WiUPemUgVoKzEHabhk-M?purpose=inline)
-
-![Como instalar o Ubuntu 22.04 no VirtualBox?](https://images.openai.com/static-rsc-4/Lqa27HHXgxilTPyscd0OVmrzTIsIS1mPsaaUgBpCSK3Mi2x6m4tsfl4bdWH828q022qkRnp3V_UIvpTAGUa-br4GO3lP_LiTMCZJPaVnJNw_-yPX11j9sWF1W8lNmwa_wzL4l9W-d7xYxCyrSmbiza2AiRAKdwjVTD8dBwl5Y9M?purpose=inline)
-
-7
-
-Typical installation flow:
-
-1. Create a new VM.
-
-2. Select the Ubuntu ISO as installation media.
-
-3. Configure virtual CPU, RAM and disk.
-
-4. Start the VM.
-
-5. Follow the Ubuntu installer.
-
-6. Configure the username and password.
-
-7. Complete installation and restart.
-
-8. Remove or detach the ISO when appropriate so the VM boots from its virtual disk.
-
-Important classroom safety note: When installing an operating system, carefully check which disk is selected. The virtual disk should be used for this exercise, not the host computer's physical Windows disk.
-
-
-## 6. Software Developer vs System Administrator vs DevOps Engineer
-
-One of the important learning moments in the session is understanding that building software and operating software are related but distinct responsibilities.
-
-Ravi Sir:
-
-"Imagine you have developed an insurance application using ASP.NET Core, React and MySQL.
-
-You have written the code. Your application works on your laptop.
-
-Now the company asks you to deploy it on a Linux server.
-
-Who will configure the server? Who will install the runtime? Who will configure networking? Who will monitor the application?"
+Who prepares the server? Who installs the runtime? Who configures networking? Who monitors the application?”
 
 ### Understanding the roles
 
+|
+Role
+
+|
+
+Typical responsibilities
+
+|
+| --- | --- |
+|
+
 Software Developer
 
-* Develops application functionality.
+|
 
-* Writes business logic and APIs.
+Builds application functionality, APIs, business logic, database interactions and tests
 
-* Designs database interactions.
-
-* Writes unit and integration tests.
-
-* Fixes application defects.
+|
+|
 
 System Administrator
 
-* Installs and configures operating systems.
+|
 
-* Manages users, permissions and storage.
+Configures operating systems, users, permissions, storage, network services, patching and system health
 
-* Configures network services.
-
-* Applies patches and monitors system health.
-
-* Troubleshoots infrastructure problems.
+|
+|
 
 DevOps / Platform Engineer
 
-* Automates build and deployment pipelines.
+|
 
-* Creates infrastructure using code.
+Automates build and deployment, manages infrastructure as code, containers, monitoring and delivery workflows
 
-* Manages containers and orchestration.
+|
 
-* Implements monitoring and observability.
-
-* Improves deployment reliability and operational workflows.
+These responsibilities can overlap, particularly in smaller teams.
 
 ### End-to-end application lifecycle
 
-Developer
+Developer Builds and tests application
 
-Builds and tests application
+System / Platform Engineer Prepares infrastructure and runtime
 
-System / Platform Engineer
+CI/CD Pipeline Builds, tests and deploys software
 
-Prepares infrastructure and runtime
-
-CI/CD Pipeline
-
-Builds, tests and deploys software
-
-Production Application
-
-Monitoring, maintenance and support
+Production Application Monitoring • Maintenance • Support
 
 Ravi Sir:
 
-"Students, as software engineers, you should understand the environment in which your application runs. You may not be responsible for every infrastructure task, but you should be able to collaborate with the people who are."
+“As software engineers, you should understand the environment in which your application runs. You may not be responsible for every infrastructure task, but you should be able to collaborate with the people who are.”
 
-## 7. Virtualization, Multiprocessing and Multitasking
+# Part 8: Virtualization, Multitasking and Multiprocessing
 
-The transcript also connects virtualization with CPU resources and operating-system concepts.
-
-Let us distinguish these terms carefully.
+## 8. Do Not Confuse These Concepts
 
 |
 Concept
@@ -600,7 +624,7 @@ Virtual machine
 
 |
 
-A software-defined computer with virtualized hardware
+Software-defined computer with virtualized hardware
 
 |
 |
@@ -609,65 +633,81 @@ Hypervisor
 
 |
 
-Manages virtual machines and their hardware access
+Creates and manages VMs and their access to hardware
 
 |
 
 Ravi Sir:
 
-"One physical server can have multiple CPU cores. A hypervisor can allocate virtual CPUs to different VMs. Inside each VM, the guest operating system schedules its own processes and threads."
+“One physical server can have multiple CPU cores. A hypervisor can assign virtual CPUs to different VMs. Inside each VM, the guest operating system schedules its own processes and threads.”
 
-### A practical example
+### CPU overcommitment
 
 Suppose a physical host has:
 
 * 8 physical CPU cores
+
 * 32 GB RAM
+
 * 500 GB storage
 
+A hypervisor may configure more total virtual CPUs across its VMs than the number of physical CPU cores. This is called CPU overcommitment.
 
+It can work when workloads do not all require their full CPU allocation simultaneously. But excessive contention can reduce performance.
 
-The assigned virtual CPUs are not necessarily dedicated physical cores. Actual scheduling and resource usage depend on the hypervisor and configuration.
+# Part 9: Virtual Machines and Containers
 
-Classroom question: Can we allocate more virtual CPUs across VMs than the host has physical cores?
-
-Yes. This is called CPU overcommitment. It can work for workloads that do not constantly need all allocated CPU capacity, but excessive contention can affect performance.
-
-## 8. Virtual Machines and Containers: What Comes Next?
-
-Once students understand virtualization, introduce containers as the next step in the infrastructure learning journey.
-
-![Part 21: Virtualization & Containers | Computer Architecture & OS Mastery - Wasil Zafar](https://images.openai.com/static-rsc-4/7ME8V5msWkHVqk4QBDeu5FfOHq_zn3Ms4ZFik8q7WDjBs5RM92XugCjuErU9pCkJQm-mOMVSwpeKUW5zwrnR1CE_Wdu6RwDKx_K3mxymBjx9pXHxtSo2Mz2ylMeHYqll_fuo51GGFnpt62aK-S5Bj6AEA0WxjVpavsWz8NI7Vbg?purpose=inline)
-
-
+## 9. What Comes Next?
 
 Ravi Sir:
 
-"Suppose your ASP.NET Core application needs to run on Linux.
+“Suppose your ASP.NET Core application needs to run on Linux.
 
-You can install the application directly on a Linux VM. Alternatively, you can package the application and its dependencies into a Docker container.
+You can install the application and its dependencies directly on a Linux VM. Alternatively, you can package the application and its dependencies into a Docker container.
 
-But remember: Docker containers and virtual machines solve related but different problems."
+But remember: containers and virtual machines solve related, but different, problems.”
 
-# 9. TAP Hands-on Lab: Your First Virtual Linux Server
+Virtual Machine
 
-Practical Assignment
+Application + Dependencies
 
-# Lab 01 – Create and Explore an Ubuntu VM
+Guest Operating System
+
+Virtual Hardware
+
+Container
+
+Application + Dependencies
+
+Container Runtime
+
+Host Operating System Kernel
+
+A typical container shares the host OS kernel, while a VM runs a guest operating system on virtualized hardware.
+
+This is why containers are often lighter to start and deploy, while VMs provide a separate guest OS environment.
+
+# Part 10: TAP Hands-on Lab
+
+## Lab 01 — Create and Explore an Ubuntu VM
 
 Objective: Understand the relationship between physical hardware, hypervisor, guest operating system and application runtime.
 
-Prerequisites
+### Prerequisites
 
 * Windows or Linux laptop
+
 * VirtualBox
+
 * Ubuntu ISO
-* At least 8 GB RAM recommended for this classroom configuration
+
+* 8 GB RAM recommended for this example configuration
+
 * Sufficient free disk space
 
-Tasks
+Lab checklist
 
-0 of 9 tasks completed
+0 / 9 completed
 
 Install and launch VirtualBox
 
@@ -687,7 +727,7 @@ Install a development tool or runtime
 
 Document the VM configuration
 
-### Linux commands for the lab
+## 10.1 Linux Commands for the Lab
 
 Run these commands inside the Ubuntu terminal.
 
@@ -719,60 +759,155 @@ ip addr
 ps aux
 ```
 
-Mentor's explanation:
+### What are we learning from these commands?
 
-"These commands are not just Linux commands to memorize. Each one helps you inspect a different aspect of the computing environment."
+|
+Command
 
-### Linux Commands – Understanding Your Virtual Machine
+|
 
-Bash
+What you learn
 
-```
-|Command|What You Learn|
+|
 | --- | --- |
-|`uname -a`|Kernel and system information|
-|`lscpu` | CPU architecture and processors visible to the VM|
-|`free -h`|Memory usage|
-|`df -h`|Filesystem capacity|
-|`ip addr`|Network interfaces and IP addresses|
-|`ps aux`|Running processes|
+|
 
-```
+`cat /etc/os-release`
 
+|
 
-## 10. TAP Capacity Planning Exercise
+Distribution and OS release information
+
+|
+|
+
+`uname -a`
+
+|
+
+Kernel and system information
+
+|
+|
+
+`lscpu`
+
+|
+
+CPU architecture and processors visible to the VM
+
+|
+|
+
+`free -h`
+
+|
+
+Memory usage
+
+|
+|
+
+`df -h`
+
+|
+
+Filesystem capacity
+
+|
+|
+
+`whoami`
+
+|
+
+Current user
+
+|
+|
+
+`ip addr`
+
+|
+
+Network interfaces and IP addresses
+
+|
+|
+
+`ps aux`
+
+|
+
+Running processes
+
+|
 
 Ravi Sir:
 
-"Now imagine Transflower wants to conduct a Linux and backend development lab for 20 students. Each student needs one Ubuntu VM configured with 2 virtual CPUs and 4 GB RAM. What resources should we plan for?"
+“These are not just Linux commands to memorize. Each command helps you inspect a different aspect of your computing environment.”
+
+# Part 11: TAP Capacity Planning Exercise
+
+## 11. Planning a Virtual Lab for 20 Students
+
+Ravi Sir:
+
+“Imagine Transflower wants to conduct a Linux and backend development lab for 20 students. Each student needs one Ubuntu VM configured with 2 virtual CPUs and 4 GB RAM.
+
+What resources should we plan for?”
+
+### Resource calculator
 
 ## Virtual Lab Resource Calculator
 
-Number of students: 20
-RAM per VM: 4 GB
-Virtual CPUs per VM: 2
-Total allocated VM RAM
+Number of students
+
+−
+
+20
+
+*
+
+RAM per VM (GB)
+
+2 GB4 GB8 GB
+
+Virtual CPUs per VM
+
+124
+
+Total configured VM RAM
+
 # 80 GB
+
 Total configured vCPUs
 
 # 40
 
-These figures represent configured VM resources, not guaranteed physical capacity. Add host OS, hypervisor overhead and workload headroom when planning infrastructure.
+These figures represent configured VM resources, not guaranteed physical capacity. Include host OS, hypervisor overhead, storage, network and workload headroom when planning infrastructure.
 
-Discussion questions:
+### Discussion questions
 
 1. Should all student VMs run on one physical machine?
+
 2. What happens if physical RAM is insufficient?
+
 3. How can we distribute VMs across multiple hosts?
+
 4. What happens if a physical host fails?
+
 5. How can we back up VM disks?
+
 6. What is the role of monitoring in a production environment?
 
-## 11. Classroom Assessment: Check Your Understanding
+# Part 12: Classroom Assessment
 
-TAP Knowledge Check
+## TAP Knowledge Check
 
-0/5 answered
+Knowledge check
+
+0 / 5 answered
 
 1. What is the primary purpose of a hypervisor?
 
@@ -794,7 +929,7 @@ A Linux shell
 
 A database server
 
-3. What is Ubuntu ISO used for in this lab?
+3. What is an Ubuntu ISO used for in this lab?
 
 It is the physical CPU
 
@@ -814,7 +949,7 @@ Installed packages
 
 Network routes
 
-5. What is the key difference between a VM and a typical container?
+5. What is a key difference between a VM and a typical container?
 
 Containers always need a separate guest kernel
 
@@ -826,50 +961,34 @@ Containers require a physical server per application
 
 Submit assessment
 
-## 12. Closing Message – Ravi Sir's Mentor Perspective
+# Part 13: Closing Message — Ravi Sir’s Mentor Perspective
 
 Ravi Sir:
 
-"Students, today we started with a physical data center.
+“Students, today we started with a physical data center.
 
 We explored server racks, CPU, RAM, storage, cooling, networking and power.
 
-Then we understood virtualization.
+Then we understood virtualization. We learned that a hypervisor allows multiple virtual machines to share physical infrastructure.
 
-We learned that a hypervisor allows multiple virtual machines to share physical infrastructure.
+We created a Linux virtual machine using VirtualBox and explored the operating system through terminal commands.
 
-We created a Linux virtual machine using VirtualBox and explored the operating system.
-
-And finally, we connected infrastructure knowledge with software development, system administration and DevOps."
-
-"Remember one thing. A software developer should not think only about the code written inside Visual Studio or VS Code.
-
-Think about the complete journey."
+Finally, we connected infrastructure knowledge with software development, system administration and DevOps.”
 
 ## From Code to Production
 
-Application Code
+Application Code C# / Java / Python / JavaScript
 
-C# / Java / Python / JavaScript
+Runtime and Dependencies .NET / JVM / Python Runtime / Node.js
 
-Runtime and Dependencies
+Operating System Windows / Linux
 
-.NET / JVM / Python Runtime / Node.js
+Virtualization / Infrastructure VMs / Hypervisor / Cloud / Containers
 
-Operating System
+Physical Computing Resources CPU / RAM / Storage / Network / Power
 
-Windows / Linux
+> “Don’t become a developer who only knows how to run an application. Become an engineer who understands how an application is built, deployed, operated, monitored and maintained.”
 
-Virtualization / Infrastructure
+### TAP Learning Outcome
 
-VMs / Hypervisor / Cloud / Containers
-
-Physical Computing Resources
-
-CPU / RAM / Storage / Network / Power
-
-Final mentor takeaway:
-
-> "Don't become a developer who only knows how to run an application. Become an engineer who understands how an application is built, deployed, operated, monitored and maintained."
-
-TAP Learning Outcome: Students should be able to explain virtualization, distinguish Type 1 and Type 2 hypervisors, create a basic Ubuntu VM, inspect its resources and understand how infrastructure supports application development.
+Students should be able to explain virtualization, distinguish Type 1 and Type 2 hypervisors, create a basic Ubuntu VM, inspect its resources, and understand how infrastructure supports application development.
