@@ -1093,13 +1093,13 @@ Learn by doing not by just reading and watching.
 
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/agile.md"> Agile Methodolgy</a>
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/agilevswaterfall.md"> Agile VS Waterfall Model</a>
-- <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notesscrum.md"> Scrum Framework</a>
-- <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notesUserStory.md"> User Stories</a>
+- <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/scrum.md"> Scrum Framework</a>
+- <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/UserStory.md"> User Stories</a>
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/sourcecontrol.md"> Source Control</a>
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/CodeDevelopment.md">Code Development</a>
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/Refactoring.md">Refactoring Code</a>
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwaredesignPriniciples.md"> Software Design Principles</a>
-- <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notesmvc/architecture.md"> MVC  Architecture</a>
+- <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/mvc/architecture.md"> MVC  Architecture</a>
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/PairProgramming.md">Pair Programming</a>
 
 - <a href="https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwaretesting.md"> Software Testing</a>
