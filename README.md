@@ -97,7 +97,7 @@ The **Software Development Life Cycle (SDLC)** provides a structured way to buil
 
 ## Core SDLC Activities
 
-### Requirements
+#### Requirements
 
 Understand:
 
@@ -108,8 +108,8 @@ Understand:
 * What are the constraints?
 * What does success look like?
 
-### Analysis  ->Convert business requirements into an engineering understanding.
-### Architecture ->Decide how the system will be structured.
+####  Analysis  -> Convert business requirements into an engineering understanding.
+####  Architecture -> Decide how the system will be structured.
 
 Examples:
 
@@ -133,9 +133,9 @@ Define:
 * Security boundaries
 * Failure handling
 
-### Implementation -> Transform design into executable software.
+#### Implementation -> Transform design into executable software.
 
-### Testing
+#### Testing
 
 Verify:
 
@@ -148,11 +148,11 @@ Does it perform?
 Can we change it safely?
 ```
 
-### Deployment -> Make software available to its users.
+#### Deployment -> Make software available to its users.
 
-### Operations -> Run the system reliably in production.
+#### Operations -> Run the system reliably in production.
 
-### Feedback -> Use production behavior, user feedback, business metrics and engineering metrics to improve the system.
+#### Feedback -> Use production behavior, user feedback, business metrics and engineering metrics to improve the system.
 
  
 ##  2. 🔄 Software Development Methodologies
