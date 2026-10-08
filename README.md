@@ -16,27 +16,7 @@ The goal is not merely to teach *how to write code*. The goal is to understand:
 Software Engineering is much more than programming. A professional software engineer needs to understand:
 
 ```text
-Business Problem
-      ↓
-Requirements
-      ↓
-Analysis
-      ↓
-Architecture
-      ↓
-Design
-      ↓
-Implementation
-      ↓
-Testing
-      ↓
-Deployment
-      ↓
-Monitoring
-      ↓
-Feedback
-      ↓
-Continuous Improvement
+Business Problem → Requirements → Analysis → Architecture → Design → Implementation → Testing → Deployment → Monitoring → Feedback →Continuous Improvement
 ```
 
 Programming is only one part of this journey. Software Engineering combines:
@@ -63,19 +43,7 @@ Programming is only one part of this journey. Software Engineering combines:
 This repository aims to help learners move through the following journey:
 
 ```text
-Programming
-     ↓
-Software Development
-     ↓
-Software Engineering
-     ↓
-System Design
-     ↓
-Modern Software Engineering
-     ↓
-AI-Assisted Engineering
-     ↓
-Agentic Engineering
+Programming → Software Development → Software Engineering → System Design → Modern Software Engineering → AI-Assisted Engineering →Agentic Engineering
 ```
 
 The emphasis is on **engineering mindset rather than syntax memorization**.
@@ -230,17 +198,7 @@ The objective is not to declare one methodology as universally "best". The objec
 Waterfall follows a sequential approach.
 
 ```text
-Requirements
-     ↓
-Design
-     ↓
-Development
-     ↓
-Testing
-     ↓
-Deployment
-     ↓
-Maintenance
+Requirements →  Design → Development → Testing → Deployment → Maintenance
 ```
 
 It can work well when:
@@ -261,31 +219,17 @@ Feedback arrives late. If a misunderstanding occurs during requirements analysis
 Instead of building everything at once:
 
 ```text
-Plan → Build → Test → Feedback
-             ↓
-          Improve
-             ↓
-          Repeat
+Plan → Build → Test → Feedback → Improve → Repeat
 ```
 
-The product evolves through iterations.
-
-Each iteration provides an opportunity to learn.
+The product evolves through iterations. Each iteration provides an opportunity to learn.
 
 ##  5. 🌀 Spiral Model
 
 The Spiral Model emphasizes **risk management**.
 
 ```text
-Plan
- ↓
-Risk Analysis
- ↓
-Engineering
- ↓
-Evaluation
- ↓
-Next Iteration
+Plan → Risk Analysis → Engineering → Evaluation → Next Iteration
 ```
 
 It is useful when:
@@ -310,30 +254,13 @@ Agile emphasizes:
 A simple Agile loop:
 
 ```text
-Product Vision
-      ↓
-Product Backlog
-      ↓
-Sprint Planning
-      ↓
-Development
-      ↓
-Testing
-      ↓
-Sprint Review
-      ↓
-Retrospective
-      ↓
-Feedback
-      ↓
-Next Sprint
+Product Vision → Product Backlog → Sprint Planning → Development → Testing Sp→rint Review → Retrospective →
+Feedback →Next Sprint
 ```
 
 Agile is not simply: "Work in two-week sprints."
 
 Agile is fundamentally about **responding to change while continuously delivering value**.
-
- 
 
 ##  7. 🏃 Scrum
 
@@ -359,24 +286,12 @@ Scrum provides a framework for iterative product development. Important concepts
 * Sprint Review
 * Sprint Retrospective
 
----
-
 ##  8. 📋 Kanban
 
 Kanban focuses on visualizing and optimizing the flow of work.
 
 ```text
-Backlog
-   ↓
-Ready
-   ↓
-In Progress
-   ↓
-Code Review
-   ↓
-Testing
-   ↓
-Done
+Backlog → Ready → In Progress → Code Review → Testing → Done
 ```
 
 Important ideas:
@@ -386,8 +301,6 @@ Important ideas:
 * Improve flow
 * Reduce bottlenecks
 * Continuously improve
-
----
 
 ##  9. 🚀 DevOps
 
@@ -400,13 +313,7 @@ Development → Handoff → Operations
 DevOps:
 
 ```text
-Development
-     ↕
-Operations
-     ↕
-Automation
-     ↕
-Feedback
+Development ↔ Operations ↔ Automation ↔ Feedback
 ```
 
 A modern delivery pipeline:
