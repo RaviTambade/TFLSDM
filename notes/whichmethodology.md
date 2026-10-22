@@ -76,7 +76,7 @@ The better question is: What kind of work are we managing?
 | Resolve bugs and mentor-reported issues                                             | Kanban            | Prioritize and flow work continuously      |
 | Deliver a major release with fixed infrastructure milestones and iterative features | Hybrid            | Combine predictability with adaptability   |
 
-## 3. Scrum and Kanban in ASCII
+## 3. Scrum and Kanban i
 
 Scrum: work in time-boxed Sprints
 
