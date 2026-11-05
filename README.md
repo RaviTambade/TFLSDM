@@ -4,41 +4,35 @@
 
 ## 1. Ravi Sir's opening conversation with students
 
-Imagine Transflower gives a team of five students an assignment:
+Imagine Transflower Learning Pvt. Ltd. gives a team of five students an assignment:
 
-"Build an Online Examination Management System." Students become excited. One student opens VS Code. Another creates a React application. Someone starts writing ASP.NET Core APIs. Another creates MySQL tables. One student asks ChatGPT to generate the entire project.
+"Build an Online Examination Management System." Students become excited. One student opens VS Code. Another creates a React application. Someone starts writing ASP.NET Core APIs. Another creates MySQL tables. One student asks ChatGPT to generate the entire project. After three days, they have hundreds of lines of code. But let me ask a few questions:
 
-After three days, they have hundreds of lines of code. But let me ask a few questions:
-
-- Who is the actual customer?
-- Who will use the system: students, teachers or administrators?
-- Can students modify answers after submission?
-- How will examination deadlines be enforced?
-- What happens if the server crashes during an examination?
-- How will we verify examination results?
-- Who decides whether the project is complete?
+- **Who is the actual customer?**
+- **Who will use the system: students, teachers or administrators?**
+- **Can students modify answers after submission?**
+- **How will examination deadlines be enforced?**
+- **What happens if the server crashes during an examination?**
+- **How will we verify examination results?**
+- **Who decides whether the project is complete?**
 
 Silence!
 
 This is where Software Development Methodology becomes important.
 
-**Students, remember**:
-
-> Writing code is a programming activity. Developing reliable software is an engineering activity.
+**Students, remember**: Writing code is a programming activity. Developing reliable software is an engineering activity.
 
 ## 2. What is Software Development Methodology?
 
-A Software Development Methodology is a systematic approach to organizing, planning, designing, developing, testing, delivering and maintaining software.
+A Software Development Methodology is a systematic approach to organizing, planning, designing, developing, testing, delivering and maintaining software. It helps an engineering team answer:
 
-It helps an engineering team answer:
-
-1. What problem are we solving?
-2. What should we build?
-3. How should we build it?
-4. Who is responsible for each activity?
-5. How do we measure progress?
-6. How do we manage risks and changes?
-7. How do we know the product is ready?
+1. **What problem are we solving?**
+2. **What should we build?**
+3. **How should we build it?**
+4. **Who is responsible for each activity?**
+5. **How do we measure progress?**
+6. **How do we manage risks and changes?**
+7. **How do we know the product is ready?**
 
 Consider this journey:
 
@@ -103,7 +97,7 @@ Consider this journey:
                         |
                         +----------------------+
                                                |
-                         Continuous Improvement
+                         Continuous Improvement|
                                                |
                          +---------------------+
                          |
@@ -126,9 +120,7 @@ Students often confuse these two concepts.
 | Requirements, design, coding, testing, deployment | Waterfall, Agile, Spiral, Scrum, Kanban        |
 | Describes the development lifecycle               | Provides an approach to managing the lifecycle |
 
-A simple analogy:
-
-Think about travelling from Pune to Mumbai.
+**A simple analogy**:Think about travelling from Pune to Mumbai.
 
 - Destination = Business objective.
 - Route = Development methodology.
@@ -159,17 +151,11 @@ Let's consider what happens when a team starts coding without an engineering pro
 ### The seven major benefits
 
 1. **Clarity of direction** : Every developer understands what the team is building and why.
-
 2. **Better collaboration** : Developers, testers, designers, architects and customers work towards a common objective.
-
 3. **Risk management** :Technical, financial, operational and delivery risks can be identified early.
-
 4. **Predictability** :Teams can estimate work, track progress and communicate delivery expectations.
-
 5. **Quality assurance** :Testing, code reviews, security and validation become part of engineering.
-
 6. **Change management** :When business requirements change, teams have a structured way to evaluate and implement changes.
-
 7. **Maintainability** :Software is designed not only for today's requirements but also for tomorrow's modifications.
 
 ## 5. Explore different software development methodologies
@@ -341,7 +327,7 @@ AI can accelerate implementation, test generation, documentation and debugging. 
 
 The repository's principle is particularly important here:
 
-> Better context → better decisions → better agent outcomes.&#x20;
+> **Better context → better decisions → better agent outcomes.**;
 
 AI should make engineering more productive, not make engineering discipline disappear.
 
@@ -473,7 +459,6 @@ I want students to remember this progression:
     +--------------------------------------+
 
  ```
- 
 This is the engineering journey followed in the Transflower Software Engineering learning philosophy.
 
 ## 11. Recommended learning sequence at Transflower
