@@ -44,53 +44,74 @@ Consider this journey:
 
 ## Software Engineering Journey
 
-#### 01
+```
+             SOFTWARE ENGINEERING JOURNEY
+             ============================
 
-Business Problem
+    +--------------------------------------+
+    |  01. BUSINESS PROBLEM                |
+    |  Understand the real-world problem   |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  02. REQUIREMENTS                    |
+    |  Identify users, expectations        |
+    |  and constraints                     |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  03. ANALYSIS & PLANNING             |
+    |  Estimate effort, resources,         |
+    |  risks and timeline                  |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  04. ARCHITECTURE & DESIGN           |
+    |  Define components, APIs, data       |
+    |  and workflows                       |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  05. IMPLEMENTATION                  |
+    |  Develop the software                |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  06. TESTING & QUALITY               |
+    |  Verify correctness, security        |
+    |  and reliability                     |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  07. DEPLOYMENT                      |
+    |  Deliver the software to users       |
+    +-------------------+------------------+
+                        |
+                        v
+    +--------------------------------------+
+    |  08. MONITORING & FEEDBACK           |
+    |  Observe, learn and continuously     |
+    |  improve                             |
+    +-------------------+------------------+
+                        |
+                        |
+                        +----------------------+
+                                               |
+                         Continuous Improvement
+                                               |
+                         +---------------------+
+                         |
+                         v
+                  Back to Requirements,
+                  Analysis and Planning
 
-Understand the real-world problem.
-
-#### 02
-
-Requirements
-
-Identify users, expectations and constraints.
-
-#### 03
-
-Analysis & Planning
-
-Estimate effort, resources, risks and timeline.
-
-#### 04
-
-Architecture & Design
-
-Define components, APIs, data and workflows.
-
-#### 05
-
-Implementation
-
-Develop the software.
-
-#### 06
-
-Testing & Quality
-
-Verify correctness, security and reliability.
-
-#### 07
-
-Deployment
-
-Deliver the software to users.
-
-#### 08
-
-Monitoring & Feedback
-
-Observe, learn and continuously improve.
+```
 
 This is the SDLC (Software Development Life Cycle).Software Development Methodologies organize these activities in different ways.
 
@@ -137,82 +158,73 @@ Let's consider what happens when a team starts coding without an engineering pro
 
 ### The seven major benefits
 
-1. Clarity of direction : Every developer understands what the team is building and why.
+1. **Clarity of direction** : Every developer understands what the team is building and why.
 
-2. Better collaboration : Developers, testers, designers, architects and customers work towards a common objective.
+2. **Better collaboration** : Developers, testers, designers, architects and customers work towards a common objective.
 
-3. Risk management :Technical, financial, operational and delivery risks can be identified early.
+3. **Risk management** :Technical, financial, operational and delivery risks can be identified early.
 
-4. Predictability :Teams can estimate work, track progress and communicate delivery expectations.
+4. **Predictability** :Teams can estimate work, track progress and communicate delivery expectations.
 
-5. Quality assurance :Testing, code reviews, security and validation become part of engineering.
+5. **Quality assurance** :Testing, code reviews, security and validation become part of engineering.
 
-6. Change management :When business requirements change, teams have a structured way to evaluate and implement changes.
+6. **Change management** :When business requirements change, teams have a structured way to evaluate and implement changes.
 
-7. Maintainability :Software is designed not only for today's requirements but also for tomorrow's modifications.
+7. **Maintainability** :Software is designed not only for today's requirements but also for tomorrow's modifications.
 
 ## 5. Explore different software development methodologies
 
 There is no universally best methodology. The engineering approach should match the problem, uncertainty, risk, regulatory environment and delivery requirements.
 
-
-
-1. Waterfall Model
+1. **Waterfall Model**
 
 Requirements → Design → Development → Testing → Deployment.
 
 Useful when requirements are stable and formal documentation is important.
 
-2. V-Model
+2. **V-Model**
 
 Each development phase has a corresponding testing phase.
 
 Useful when verification, validation and traceability are important.
 
 
-3. Iterative and Incremental Development
+3. **Iterative and Incremental Development**
 
 Plan → Build → Test → Feedback → Improve.
 
 Useful when the product needs to evolve through smaller releases.
 
-
-
-4. Spiral Model
+4. **Spiral Model**
 
 Planning → Risk Analysis → Engineering → Evaluation.
 
 Useful for complex systems with significant technical uncertainty.
 
-
-5. Agile
+5. **Agile**
 
 Build small increments, obtain feedback and adapt.
 
 Useful when requirements evolve and continuous customer collaboration is needed.
 
 
-
-6. Scrum
+6. **Scrum**
 
 Product Backlog → Sprint Planning → Development → Review → Retrospective.
 
 Provides structured teamwork through defined accountabilities, events and artifacts.
 
-
-7. Kanban
+7. **Kanban**
 
 Backlog → Ready → In Progress → Testing → Done.
 
 Focuses on work visibility, limiting work in progress and improving flow.
 
-8. DevOps
+8. **DevOps**
 
 Development ↔ Operations ↔ Automation ↔ Feedback.
 
-Connects software development with reliable delivery and operations.
-
-Other important engineering approaches include DevSecOps, Cloud-Native Engineering, AI-Assisted Engineering and Agentic Engineering. These extend modern engineering practices rather than simply replacing the fundamentals of SDLC.&#x20;
+Connects software development with reliable delivery and operations. Other important engineering approaches include DevSecOps, Cloud-Native Engineering, AI-Assisted Engineering and Agentic Engineering. These extend modern engineering practices rather than simply replacing the fundamentals of SDLC.&#x20;
 
 ## 6. Let's understand through a real project
 
@@ -274,9 +286,9 @@ Illustrative four-sprint classroom plan, not a mandatory Scrum prescription. Not
 
 ## 7. Software Development Methodology in the AI era
 
-Now students may ask: "Sir, when AI can generate an entire application, why should we learn SDLC and methodologies?"
+**student**: **"Sir, when AI can generate an entire application, why should we learn SDLC and methodologies?"**
 
-My answer:AI can generate code. But who decides whether the generated code solves the correct business problem?
+**My answer**:AI can generate code. But who decides whether the generated code solves the correct business problem?
 
 Consider this workflow:
 
@@ -335,7 +347,7 @@ AI should make engineering more productive, not make engineering discipline disa
 
 ## 8. Learn by doing: Classroom activity
 
-Transflower Practical Exercise
+**Transflower Practical Exercise**
 
 Don't  memorize definitions of Waterfall, Agile or Scrum. Let us get one problem and  solve it using different methodologies.
 
