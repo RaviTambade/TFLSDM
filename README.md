@@ -488,16 +488,16 @@ I would organize the Software Development Methodology subject as a hands-on lear
 
 These are the learning notes from the Transflower Software Engineering repository:
 
-- [Software Engineering](https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwareengg.md?utm_source=chatgpt.com)
-- [Software Development Life Cycle](https://github.com/RaviTambade/TFLSDM/blob/main/notes/sdlc.md?utm_source=chatgpt.com)
-- [Waterfall Model](https://github.com/RaviTambade/TFLSDM/blob/main/notes/waterfall.md?utm_source=chatgpt.com)
-- [Project Planning and Management](https://github.com/RaviTambade/TFLSDM/blob/main/notes/pmp.md?utm_source=chatgpt.com)
-- [Requirement Engineering](https://github.com/RaviTambade/TFLSDM/blob/main/notesRequirementEngg.md?utm_source=chatgpt.com)
-- [Software Architecture](https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwarearchitecture.md?utm_source=chatgpt.com)
-- [Agile Methodology](https://github.com/RaviTambade/TFLSDM/blob/main/notes/agile.md?utm_source=chatgpt.com)
-- [Scrum Framework](https://github.com/RaviTambade/TFLSDM/blob/main/notes/scrum.md?utm_source=chatgpt.com)
-- [User Stories](https://github.com/RaviTambade/TFLSDM/blob/main/notes/UserStory.md?utm_source=chatgpt.com)
-- [Software Testing](https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwaretesting.md?utm_source=chatgpt.com)
+- [Software Engineering](https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwareengg.md)
+- [Software Development Life Cycle](https://github.com/RaviTambade/TFLSDM/blob/main/notes/sdlc.md)
+- [Waterfall Model](https://github.com/RaviTambade/TFLSDM/blob/main/notes/waterfall.md)
+- [Project Planning and Management](https://github.com/RaviTambade/TFLSDM/blob/main/notes/pmp.md)
+- [Requirement Engineering](https://github.com/RaviTambade/TFLSDM/blob/main/notesRequirementEngg.md)
+- [Software Architecture](https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwarearchitecture.md)
+- [Agile Methodology](https://github.com/RaviTambade/TFLSDM/blob/main/notes/agile.md)
+- [Scrum Framework](https://github.com/RaviTambade/TFLSDM/blob/main/notes/scrum.md)
+- [User Stories](https://github.com/RaviTambade/TFLSDM/blob/main/notes/UserStory.md)
+- [Software Testing](https://github.com/RaviTambade/TFLSDM/blob/main/notes/softwaretesting.md)
 
 ## 13. Ravi Sir's closing message to students
 
