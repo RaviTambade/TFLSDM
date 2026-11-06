@@ -1,6 +1,6 @@
 # System Design Thinking
 
-Theme: Don't just think about writing code. Think about designing a system that can serve people reliably.
+**Theme**: Don't just think about writing code. Think about designing a system that can serve people reliably.
 
 Mentor's analogy: A System Designer is like a City Planner.
 
@@ -26,7 +26,6 @@ Mentor's analogy: A System Designer is like a City Planner.
 
 Let's understand them one by one.
  
-
 ## 2. Networking – Roads and Traffic
 
 **Mentor:** Om, imagine a person wants to visit a building called Google. How does the browser know where `google.com` lives?
@@ -54,7 +53,6 @@ Let's understand them one by one.
 
 **Mentor's point:** Roads help people reach places. Networking helps requests reach services.
 
- 
 ## 3. Storage – Granaries and Libraries
 
 **Mentor:** Om, suppose you are designing Instagram. Users upload millions of photographs. Would you store all those photographs directly inside SQL database tables?
@@ -141,9 +139,9 @@ Serverless is like hiring a production facility only when a particular job arriv
 
 **Mentor:** Now comes an important question. How should we organize all these buildings, roads, factories and services? That is an architecture decision. Tell me, Om, what is a Monolithic Architecture?
 
-**Om:**Sir, a monolithic application is built and deployed as one application unit. Its modules can still be logically separated.
+**Om:** Sir, a monolithic application is built and deployed as one application unit. Its modules can still be logically separated.
 
-**Mentor:**Very good! And Microservices?
+**Mentor:** Very good! And Microservices?
 
 **Om:** The application is divided into independently deployable services. Each service owns a specific business capability and communicates with other services through defined contracts.
 
@@ -260,9 +258,9 @@ This is an illustrative starting architecture, not a requirement to implement ev
 
 ## 9. Closing Conversation
 
-**Mentor:**Om, what did you learn today?
+**Mentor:** Om, what did you learn today?
 
-**Om:**Sir, System Design is not about memorizing technology names. 
+**Om:** Sir, System Design is not about memorizing technology names. 
 
 It is about understanding how different components work together. 
 - Networking handles requests.
@@ -287,7 +285,7 @@ It is about understanding how different components work together.
 8. Evolve the architecture when the business needs it.
 
  
-
+ 
 ## Final Mentor Message
 
 > Don't become a technology collector. Become a problem solver.
